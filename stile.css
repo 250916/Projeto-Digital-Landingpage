@@ -1,4 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     display: flex;
     justify-content: center;
+
+    font-variant-ligatures: no-common-ligatures;
+}
+
+.prologo{
+    
+    justify-content:center;
+    align-items: center;
+    width: 100vw; 
+    border: 0;   
+        
+}
+
+.barra{
+    display: flex;
+    position: absolute;   
+    right: 1vw;
+    width: 70vw;
+    height: 25vh; 
+    top: 5vh;  
+    justify-content: space-around;     
+    
+           
+}
+.barra_nav{
+    display: flex;
+    position: absolute; 
+    right: 40vw;
+    top: 30vh;  
+    justify-content: center;
+
+}
+
+
+h1{
+    color:white;
+    justify-content: center;
+    
+}
+.bt1{
+    border: none;
+    background-color:none;
+}
+
+.fundo > img{
+    width: 100vw;
 }
