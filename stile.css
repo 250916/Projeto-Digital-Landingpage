@@ -34,9 +34,29 @@ body{
     display: flex;
     position: absolute; 
     right: 40vw;
-    top: 30vh;  
+    top: 48vh;  
     justify-content: center;
+    align-items: center;
+    width: 20%;
 
+}
+.texto3{
+    display: flex;
+    position: absolute; 
+    right: 30vw;
+    top: 38vh;  
+    justify-content: center;
+    line-height: 40px;
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: -0.01ch;
+    
+}
+.slogan{
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    max-width: 750px;
 }
 
 
