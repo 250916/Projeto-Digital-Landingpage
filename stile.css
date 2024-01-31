@@ -46,6 +46,7 @@ body{
     right: 30vw;
     top: 38vh;  
     justify-content: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
     line-height: 40px;
     font-size: 25px;
     font-weight: 300;
@@ -66,8 +67,36 @@ h1{
     
 }
 .bt1{
-    border: none;
-    background-color:none;
+    position: relative;
+    width: 80px; 
+    height: 25px;
+    margin: 0px;
+    padding: 0px;
+    display: inline-flex;
+    border-radius: 24px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(235, 23, 0);
+    color: white;
+   
+   
+}
+.bt2{
+    position: relative;
+    width: 80px; 
+    height: 25px;
+    margin: 0px;
+    padding: 0px;
+    display: inline-flex;
+    border-radius: 24px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    
+
 }
 
 .fundo > img{
